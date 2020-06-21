@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapteer No.21 to 38 (Assignment # 6th)</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+  <!-- <h1>chapter 1</h1> -->
+  <div class="alert alert-dark" role="alert">
+    <p class="text-center font-weight-bold display-3">Java Chapter No.21 to 25 String Methods</p>  
+  </div>
+
+  <div>
+    <div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group mr-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-dark" onclick="task211()">1. Full Name</button>
+        <button type="button" class="btn btn-dark" onclick="favourtMobile()">2. Favorit Mobile</button>
+        <button type="button" class="btn btn-dark" onclick="search('n')">3. Search</button>
+        <button type="button" class="btn btn-dark" onclick="searchByIndex()">4. Search by Index</button>
+        <button type="button" class="btn btn-dark" onclick="task212()">5. Search 3rd Index</button>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group mr-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-dark" onclick="concatination()">6. String Concatination</button>
+        <button type="button" class="btn btn-dark" onclick="stringReplce()">7. String Replacement</button>
+        <button type="button" class="btn btn-dark" onclick="stringReplceAll()">8. Replace All</button>
+        <button type="button" class="btn btn-dark" onclick="stringToNumber()">9. String to Number</button>
+        <button type="button" class="btn btn-dark" onclick="capitalization()">10. String Capitalization</button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="btn-toolbar bg-dark role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group mr-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-dark" onclick="stringTitalCase()">11. String Title Case</button>
+        <button type="button" class="btn btn-dark" onclick="numbertoString()">12. Removal of Decimal point</button>
+        <button type="button" class="btn btn-dark" onclick="inputUserName()">13. Username Check</button>
+        <button type="button" class="btn btn-dark" onclick="bakerySearch()">14. Order in Bakery</button>
+        <button type="button" class="btn btn-dark" onclick="capitalization()">15. -----</button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group mr-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-dark" onclick="stringSplit()">16. String Split</button>
+        <button type="button" class="btn btn-dark" onclick="printLastCharacter()">17. Print Last Character</button>
+        <button type="button" class="btn btn-dark" onclick="wordCount()">18. Count word in string</button>
+        
+      </div>
+    </div>
+    <br>
+    <br>
+
+  </div>
+
+  <div class="alert alert-dark" role="alert">
+    <p class="text-center font-weight-bold display-3">Java Chapter No.26 to 30 Math Method</p>  
+</div>
+
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group mr-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-dark" onclick="integerOperation()">1. Integer Operation</button>
+        <button type="button" class="btn btn-dark" onclick="negativeIntegerOperation()">2. Negative Integer </button>
+        <button type="button" class="btn btn-dark" onclick="absoluteNumber()">3. Absolute number</button>
+        <button type="button" class="btn btn-dark" onclick="diceRandom()">4. Dice Random</button>
+        
+    </div>
+    <br>
+    <br>
+</div>
+<br>
+<br>
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group mr-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-dark" onclick="coinRandom()">5. Coin Random</button>
+        <button type="button" class="btn btn-dark" onclick="hundredRandomNumbers()">6. Random Number 1 to 100</button>
+        <button type="button" class="btn btn-dark" onclick="parseWeight()">7. Parse the weight</button>
+        <button type="button" class="btn btn-dark" onclick="secretNumberSearch()">8. Secret Number</button>
+        
+    </div>
+    <br>
+    <br>
+</div>
+
+<br>
+<br>
+<div class="alert alert-dark" role="alert">
+  <p class="text-center font-weight-bold display-3">Java Chapter No.31 to 34 Date Method</p> 
+</div>
+
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+      <button type="button" class="btn btn-dark" onclick="nowDate()">1. Date Now</button>
+      <button type="button" class="btn btn-dark" onclick="currentMonth()">2. Current Month</button>
+      <button type="button" class="btn btn-dark" onclick="nowDay()">3. Day Name</button>
+      <button type="button" class="btn btn-dark" onclick="funDay()">4. Fun Day</button>
+  </div>
+  <br>
+  <br>
+</div>
+<br>
+<br>
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="Second group">
+      <button type="button" class="btn btn-dark" onclick="daysCheck()">5. Days Check</button>
+      <button type="button" class="btn btn-dark" onclick="elapsedMinutes()">6. Elapsed Milliseconds & Minutes</button>
+      <button type="button" class="btn btn-dark" onclick="noonCheck()">7. Noon Check</button>
+      <button type="button" class="btn btn-dark" onclick="assignDate()">8. Last day of 2020</button>
+  </div>
+  <br>
+  <br>
+</div>
+<br>
+<br>
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="Third group">
+      <button type="button" class="btn btn-dark" onclick="calcDayOfRamzan()">9. Ramzan Days</button>
+      <button type="button" class="btn btn-dark" onclick="secondDiffFromDate()">10. Second Difference</button>
+      <button type="button" class="btn btn-dark" onclick="date1HourAgo()">11. Date One Hour Ago</button>
+      <button type="button" class="btn btn-dark" onclick="hundredYearsBack()">12. Hundred Years Back</button>
+  </div>
+</div>
+<br>
+<br>
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="Fourth group">
+      <button type="button" class="btn btn-dark" onclick="ageYearCalculate()">13. Birth Year Calc</button>
+      <button type="button" class="btn btn-dark" onclick="kElectricBill()">14. K-Electric Bill</button>
+  </div>
+</div>
+
+<br>
+<br>
+<div class="alert alert-dark" role="alert">
+  <p class="text-center font-weight-bold display-3">Chapter No.35 to 38 Functions</p> 
+</div>
+
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+      <button type="button" class="btn btn-dark" onclick="currentDateTime()">1. Current Date & Time</button>
+      <button type="button" class="btn btn-dark" onclick="greetings('Waseem ', 'Abbas')">2. Greets</button>
+      <button type="button" class="btn btn-dark" onclick="addTwoNum()">3. Add Two2 Numbers</button>
+      <button type="button" class="btn btn-dark" onclick="task354()">4. Calculator</button>
+  </div>
+</div>
+<br>
+<br>
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="Secone group">
+      <button type="button" class="btn btn-dark" onclick="squares(5)">5. Squares The Numbers</button>
+      <button type="button" class="btn btn-dark" onclick="task356()">6. Factorial</button>
+      <button type="button" class="btn btn-dark" onclick="countingPrint()">7. Counting Print</button>
+      <button type="button" class="btn btn-dark" onclick="calculateHypotenuse()">8. Calculate Hypotenuse</button>
+  </div>
+</div>
+<br>
+<br>
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="Third group">
+      <button type="button" class="btn btn-dark" onclick="calculateAreaOfTriangle()">9. Area of Triangle</button>
+      <button type="button" class="btn btn-dark" onclick="taskNo3510()">10. Palindrome Check</button>
+      <button type="button" class="btn btn-dark" onclick="task3511()">11. String in Title Casa</button>
+      <button type="button" class="btn btn-dark" onclick="task3512()">12. Find Longest Word of String</button>
+  </div>
+</div>
+<br>
+<br>
+<div class="btn-toolbar bg-dark" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="Fourth group">
+      <button type="button" class="btn btn-dark" onclick="task3513()">13. Occurrence of Word</button>
+      <button type="button" class="btn btn-dark" onclick="task3514()">14. The Geometrizer</button>
+      
+  </div>
+</div>
+<br>
+<br>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
